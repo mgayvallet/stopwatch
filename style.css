@@ -9,7 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #1d9c5e;
+  background-color: #F5F5DC;
 }
 
 .chronometre {
@@ -22,7 +22,6 @@ body {
 
 .time {
   margin: auto;
-  border: 1px solid #999;
   border-radius: 6px;
   padding: 5px 0;
   text-align: center;
@@ -30,6 +29,14 @@ body {
   font-weight: 400;
   margin-bottom: 10px;
 } 
+
+#m, #s{
+  font-size: 75px;
+}
+
+#ms{
+  font-size: 50px;
+}
 
 .controls {
   display: flex;
